@@ -22,77 +22,75 @@ import Credits from "./pages/Credits";
 function App() {
   return (
     <HashRouter>
-      <Router>
-        <Header />
-        <Navbar />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Home />
-              </>
-            }
-          />
-          <Route
-            path="/meniu"
-            element={
-              <>
-                <Menu />
-              </>
-            }
-          />
-          <Route
-            path="/despre-noi"
-            element={
-              <>
-                <About />
-              </>
-            }
-          />
-          <Route
-            path="/cumparaturi"
-            element={
-              <>
-                <ShoppingCart />
-              </>
-            }
-          ></Route>
-          <Route
-            path="/login"
-            element={
-              <>
-                <UserForm />
-              </>
-            }
-          ></Route>
-          <Route
-            path="/signup"
-            element={
-              <>
-                <Signup />
-              </>
-            }
-          ></Route>
-          <Route
-            path="/galerie"
-            element={
-              <>
-                <Gallery />
-              </>
-            }
-          ></Route>
-          <Route
-            path="/credite"
-            element={
-              <>
-                <Credits />
-              </>
-            }
-          ></Route>
-        </Routes>
-        <Footer />
-      </Router>
+      <Header />
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+            </>
+          }
+        />
+        <Route
+          path="/meniu"
+          element={
+            <>
+              <Menu />
+            </>
+          }
+        />
+        <Route
+          path="/despre-noi"
+          element={
+            <>
+              <About />
+            </>
+          }
+        />
+        <Route
+          path="/cumparaturi"
+          element={
+            <>
+              <ShoppingCart />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/login"
+          element={
+            <>
+              <UserForm />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/signup"
+          element={
+            <>
+              <Signup />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/galerie"
+          element={
+            <>
+              <Gallery />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/credite"
+          element={
+            <>
+              <Credits />
+            </>
+          }
+        ></Route>
+      </Routes>
+      <Footer />
     </HashRouter>
   );
 }
