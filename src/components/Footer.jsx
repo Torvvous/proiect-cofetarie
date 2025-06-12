@@ -1,5 +1,10 @@
 import { Link, useLocation } from "react-router-dom";
 
+import facebook from "../assets/icons8-facebook-circled.svg";
+import instagram from "../assets/icons8-instagram-logo.svg";
+import twitter from "../assets/icons8-twitter-logo.svg";
+import youtube from "../assets/icons8-youtube-logo.svg";
+
 function Footer() {
   return (
     <footer className="bg-orange-900 text-white text-xl font-extrabold tracking-wide">
@@ -70,28 +75,28 @@ function Footer() {
         <div className="flex flex-wrap justify-center gap-6 my-6">
           <a href="#">
             <img
-              src="../src/assets/icons8-facebook-circled.svg"
+              src={facebook}
               alt="Facebook"
               className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28"
             />
           </a>
           <a href="#">
             <img
-              src="../src/assets/icons8-instagram-logo.svg"
+              src={instagram}
               alt="Instagram"
               className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28"
             />
           </a>
           <a href="#">
             <img
-              src="../src/assets/icons8-twitter-logo.svg"
+              src={twitter}
               alt="Twitter"
               className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28"
             />
           </a>
           <a href="#">
             <img
-              src="../src/assets/icons8-youtube-logo.svg"
+              src={youtube}
               alt="Youtube"
               className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28"
             />
