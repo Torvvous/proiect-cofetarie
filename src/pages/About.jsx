@@ -1,5 +1,11 @@
 import React from "react";
 
+import team from "../assets/team.jpg";
+import serving from "../assets/serving.jpg";
+import ceo from "../assets/ceo.jpg";
+import chef from "../assets/chef.jpg";
+import webarchitect from "../assets/webarchitect.jpg";
+
 export default function AboutUs() {
   return (
     <div className="min-h-screen bg-yellow-100 py-12 px-4 sm:px-6 lg:px-8">
@@ -12,7 +18,7 @@ export default function AboutUs() {
         {/* About Text and Images */}
         <div className="grid md:grid-cols-2 gap-10 items-center mx-4 sm:mx-8 md:mx-24">
           <img
-            src="/src/assets/team.jpg"
+            src={team}
             alt="Echipa noastră"
             className="w-full rounded-xl shadow-lg"
           />
@@ -48,7 +54,7 @@ export default function AboutUs() {
             </p>
           </div>
           <img
-            src="/src/assets/serving.jpg"
+            src={serving}
             alt="Misiunea noastră"
             className="w-full rounded-xl shadow-lg"
           />
@@ -63,7 +69,7 @@ export default function AboutUs() {
             {/* CEO */}
             <div className="bg-white rounded-xl shadow-md p-6 space-y-4">
               <img
-                src="/src/assets/ceo.jpg"
+                src={ceo}
                 alt="CEO"
                 className="w-32 h-32 object-cover rounded-full mx-auto"
               />
@@ -80,7 +86,7 @@ export default function AboutUs() {
             {/* Creative Chef */}
             <div className="bg-white rounded-xl shadow-md p-6 space-y-4">
               <img
-                src="/src/assets/chef.jpg"
+                src={chef}
                 alt="Chef of Ideas"
                 className="w-32 h-32 object-cover rounded-full mx-auto"
               />
@@ -97,7 +103,7 @@ export default function AboutUs() {
             {/* Web Architect */}
             <div className="bg-white rounded-xl shadow-md p-6 space-y-4">
               <img
-                src="/src/assets/webarchitect.jpg"
+                src={webarchitect}
                 alt="Web Architect"
                 className="w-32 h-32 object-cover rounded-full mx-auto"
               />
