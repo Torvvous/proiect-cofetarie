@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = [
-  "/src/assets/fruit-tarts.jpg",
-  "/src/assets/cake.jpg",
-  "/src/assets/cupcakes-large.jpg",
-  "/src/assets/brownies.jpg",
-  "/src/assets/creme-brulee.jpg",
-];
+import fruit_tarts from "../assets/fruit-tarts.jpg";
+import cake from "../assets/cake.jpg";
+import cupcakes_large from "../assets/cupcakes-large.jpg";
+import brownies from "../assets/brownies.jpg";
+import creme_brulee from "../assets/creme-brulee.jpg";
+
+const images = [fruit_tarts, cake, cupcakes_large, brownies, creme_brulee];
 
 const captions = [
   "Tarte cu Fructe",
