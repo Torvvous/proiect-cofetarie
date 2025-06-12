@@ -67,21 +67,13 @@ function Navbar() {
             to="/cumparaturi"
             className="text-gray-700 hover:text-orange-600 transition"
           >
-            <img
-              src="../src/assets/cart.png"
-              alt="Shopping Cart"
-              className="w-10"
-            />
+            <img src={cart} alt="Shopping Cart" className="w-10" />
           </Link>
           <Link
             to="/login"
             className="text-gray-700 hover:text-orange-600 transition"
           >
-            <img
-              src="../src/assets/icons8-account.png"
-              alt="User Account"
-              className="w-12"
-            />
+            <img src={account} alt="User Account" className="w-12" />
           </Link>
         </div>
       </div>
