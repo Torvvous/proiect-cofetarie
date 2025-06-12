@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { foods } from "../data/foods";
 
+import menu_banner from "../assets/menu-banner.png";
+
 function Menu() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filterCategory, setFilterCategory] = useState("");
@@ -28,7 +30,7 @@ function Menu() {
     <div className="min-h-screen bg-yellow-100 p-0  mt-0 pt-0 sm:px-6 lg:px-0">
       <img
         className="mb-6 mx-0 px-0 w-full h-56 object-cover"
-        src="src/assets/menu-banner.png"
+        src={menu_banner}
         alt="Meniu banner"
       />
 
