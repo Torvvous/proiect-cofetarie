@@ -1,40 +1,46 @@
 import React, { useState } from "react";
 import { FaPlus, FaMinus, FaTrash, FaTicketAlt } from "react-icons/fa";
 
+import negrese_crocante from "../assets/negrese-crocante.jpg";
+import briose_stratificate from "../assets/briose-stratificate.jpg";
+import tort_opera from "../assets/tort-opera.jpg";
+import tarte_mere from "../assets/tarte-mere.png";
+import cremebrulee_cafea from "../assets/cremebrulee-cafea.jpg";
+
 const ShoppingCart = () => {
   const [cartItems, setCartItems] = useState([
     {
       id: 1,
       title: "Negrese crocante",
-      image: "src/assets/negrese-crocante.jpg",
+      image: negrese_crocante,
       quantity: 2,
       price: 18,
     },
     {
       id: 2,
       title: "Brioșe etajate",
-      image: "src/assets/briose-stratificate.jpg",
+      image: briose_stratificate,
       quantity: 5,
       price: 30,
     },
     {
       id: 3,
       title: "Tort Opera",
-      image: "src/assets/tort-opera.jpg",
+      image: tort_opera,
       quantity: 1,
       price: 200,
     },
     {
       id: 4,
       title: "Tarte cu mere",
-      image: "src/assets/tarte-mere.png",
+      image: tarte_mere,
       quantity: 4,
       price: 20,
     },
     {
       id: 5,
       title: "Crème Brûlée cu espresso",
-      image: "src/assets/cremebrulee-cafea.jpg",
+      image: cremebrulee_cafea,
       quantity: 2,
       price: 18,
     },
