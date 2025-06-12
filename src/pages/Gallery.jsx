@@ -1,17 +1,28 @@
 import React, { useState } from "react";
 
+import gallery_img1 from "../assets/gallery-img1.jpg";
+import gallery_img2 from "../assets/gallery-img2.jpg";
+import gallery_img3 from "../assets/gallery-img3.jpg";
+import gallery_img4 from "../assets/gallery-img4.jpg";
+import gallery_img5 from "../assets/gallery-img5.jpg";
+import gallery_img6 from "../assets/gallery-img6.jpg";
+import gallery_img7 from "../assets/gallery-img7.jpg";
+import gallery_img8 from "../assets/gallery-img8.jpg";
+import gallery_img9 from "../assets/gallery-img9.jpg";
+import gallery_img10 from "../assets/gallery-img10.jpg";
+
 // sample image paths – replace with your own images
 const images = [
-  "src/assets/gallery-img1.jpg",
-  "src/assets/gallery-img2.jpg",
-  "src/assets/gallery-img3.jpg",
-  "src/assets/gallery-img4.jpg",
-  "src/assets/gallery-img5.jpg",
-  "src/assets/gallery-img6.jpg",
-  "src/assets/gallery-img7.jpg",
-  "src/assets/gallery-img8.jpg",
-  "src/assets/gallery-img9.jpg",
-  "src/assets/gallery-img10.jpg",
+  gallery_img1,
+  gallery_img2,
+  gallery_img3,
+  gallery_img4,
+  gallery_img5,
+  gallery_img6,
+  gallery_img7,
+  gallery_img8,
+  gallery_img9,
+  gallery_img10,
 ];
 
 function Gallery() {
