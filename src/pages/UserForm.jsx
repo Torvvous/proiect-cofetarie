@@ -4,6 +4,10 @@ import { FcGoogle } from "react-icons/fc";
 import { FaFacebookF } from "react-icons/fa";
 import { Eye, EyeOff } from "lucide-react";
 
+import login_banner from "../assets/userform-cover.png";
+import email_icon from "../assets/icons8-email.png";
+import password_icon from "../assets/icons8-password.png";
+
 function UserForm() {
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState("");
@@ -69,7 +73,7 @@ function UserForm() {
         {/* Left Side */}
         <div className="w-full md:w-1/2 bg-orange-100 flex flex-col items-center justify-center">
           <img
-            src="/src/assets/userform-cover.png"
+            src={login_banner}
             alt="Sign up visual"
             className="w-full h-64 md:h-full object-cover md:rounded-l-xl mb-4 md:mb-0"
           />
@@ -89,7 +93,7 @@ function UserForm() {
               <div className="flex items-center gap-1 mb-1">
                 <label className="text-sm font-medium">Email</label>
                 <img
-                  src="src/assets/icons8-email.png"
+                  src={email_icon}
                   alt="email icon"
                   className="w-5 h-5 mb-1"
                 />
@@ -114,7 +118,7 @@ function UserForm() {
               <div className="flex items-center gap-1 mb-1">
                 <label className="text-sm font-medium">Parolă</label>
                 <img
-                  src="src/assets/icons8-password.png"
+                  src={password_icon}
                   alt="password icon"
                   className="w-5 h-5"
                 />

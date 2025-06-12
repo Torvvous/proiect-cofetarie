@@ -5,6 +5,8 @@ import { FcGoogle } from "react-icons/fc";
 import { FaFacebookF } from "react-icons/fa";
 import { Eye, EyeOff } from "lucide-react";
 
+import signup_banner from "../assets/signup-cover.png";
+
 function Signup() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -80,7 +82,7 @@ function Signup() {
         {/* Left Side */}
         <div className="w-full md:w-1/2 bg-orange-100 flex flex-col items-center justify-center">
           <img
-            src="/src/assets/signup-cover.png"
+            src={signup_banner}
             alt="Sign up visual"
             className="w-full h-full object-cover rounded-t-xl md:rounded-t-none md:rounded-l-xl mb-4"
           />
